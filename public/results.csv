@@ -1,0 +1,7 @@
+modele,dataset,acc_train,acc_val,acc_test,loss_test,params,commentaire
+MLP,MNIST,98.2,97.8,97.6,0.082,407050,Baseline non-CNN — 3 couches Dense
+Mini-CNN,MNIST,99.5,99.2,99.1,0.038,93322,Extraction locale efficace — Conv+Pool+Dense
+CNN renforcé,CIFAR-10,89.3,82.1,81.8,0.612,487818,Augmentation + BatchNorm + AdamW
+VGG16 TL,CIFAR-10,,,,,138357544,Transfer Learning — Non exécuté
+VGG19 TL,CIFAR-10,,,,,143667240,Transfer Learning — Non exécuté
+MobileNetV2 TL,CIFAR-10,92.1,88.4,87.9,0.384,2257984,Adapté mobile — léger et performant
